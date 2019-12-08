@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: f3f3f3;
+    font-family:  微软雅黑;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 750px;
+}
+#sousuo{    
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 55px;
+}
+
+div input[type="text"]{
+    height: 40px;
+    font-size: 22px;
+    padding-left: 10px;
+    width: 165px;
+    border: solid 1px #ccc ;
+    vertical-align: top;
+    font-family:  微软雅黑;
+    display: inline-block;
+}
+
+div input[type="submit"]{
+    background-color: #3598db;
+    color: #fff;
+    height: 40px;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    font-family:  微软雅黑;
+    display: inline-block;
+
+}
