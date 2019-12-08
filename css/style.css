@@ -45,5 +45,22 @@ div input[type="submit"]{
     vertical-align: top;
     font-family:  微软雅黑;
     display: inline-block;
-
+}
+div#nav{
+    height: 60px;
+    background-color: #3598db;
+}
+#nav nav li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 10px;
+    border-right: solid 1px #2f89c5;
+}
+#nav nav li.on ,#nav nav li:hover{
+    background-color: #2f89c5;
+    transition: background-color 1s linear;
+}
+#nav nav li a{
+    color: #fff;
+    text-decoration: none;
 }
